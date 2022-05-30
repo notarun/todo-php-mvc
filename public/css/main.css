@@ -1,0 +1,110 @@
+:root {
+    --primary-blue: #00a8cc;
+    --secondary-blue: #0c7b93;
+    --primary-white: #fff;
+    --primary-black: #333;
+    --primary-orange: #ea9085;
+    --primary-grey: #979797;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: var(--primary-white);
+}
+
+.center { text-align: center; }
+.link { text-decoration: none; }
+.flex-box { display: flex; }
+.heading::before { content: '🗒️ '; }
+.link:active, .link-btn:active { color: var(--secondary-blue); }
+.nav-item { margin: 0 1em; }
+
+.login-btn, .login-input, .register-input {
+    width: 100%;
+    margin: 1em 0 0.4em 0;
+    display: inline-block;
+}
+
+.btn, .input-style, .link-btn {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.content-wrapper {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.input-style {
+    box-sizing: border-box;
+    border-width: 0 0 0.2em 0;
+    margin: 0.6em 0;
+}
+
+.input-style:focus {
+    outline: none;
+    border-color: var(--primary-blue);
+}
+
+.btn {
+    border-width: 0;
+    padding: 0.4em 1em;
+    border-radius: 4px;
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+}
+
+.icon-btn {
+    border-width: 0;
+    background-color: var(--primary-white);
+    font-size: 14px;
+    padding: 0;
+}
+
+.todo-item-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-btn {
+    background-color: var(--primary-white);
+    color: var(--primary-blue);
+    border: none;
+}
+
+.error {
+    font-size: 15px;
+    color: var(--primary-orange);
+    display: block;
+}
+
+.todo-input { width: 100%; }
+.input-error { border-color: var(--primary-orange); }
+.icon-btn:focus { outline: none; }
+.form-group { flex: 6; }
+.todo-btn { flex: 1; }
+.todo-item .icon-btn { margin: 0 1em 0 0; }
+.message-box { color: var(--primary-orange); }
+.message-box::before { content: '💬'; }
+.strikethrough { color: var(--primary-grey)  }
+.user-name::before { content: '😀 ' }
+.btn-red { background-color: var(--primary-orange); }
+.btn-blue { background-color: var(--primary-blue); }
+.btn-container { justify-content: flex-start; }
+.btn-container form { margin: 1em 1em 0 0; }
+
+.item-link {
+    text-decoration: none;
+    color: inherit;
+}
