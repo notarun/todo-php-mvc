@@ -1,4 +1,5 @@
-> Wrote this a while back, uploading here just for the backup.
+> Wrote this a while back to learn PHP and MVC, uploading here just for the backup.
+> ⚠️ Not for productionn use.
 
 ## TODO MVC Project
 
