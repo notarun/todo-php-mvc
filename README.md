@@ -13,7 +13,7 @@
 #### Setup
 ```bash
 git clone https://github.com/notarun/todo-php-mvc
-cd todo-php
+cd todo-php-mvc
 composer install                    # setup vendor folder for autoloading
 cp config.example.php config.php    # create config file
 vim config.php                      # edit config file
